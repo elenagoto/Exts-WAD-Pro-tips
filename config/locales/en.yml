@@ -37,3 +37,17 @@ en:
   homeTitle: 'Share your programming tips with other developers online!'
   homeLead: '... or find tips about something:'
   homeRecentTips: 'Here are the four most recently active tips:'
+# Helpers 
+  helpers:
+    label:
+  # Tip form
+      tip:
+        title: 'Title'
+        body: 'Body'
+  # Other texts in forms
+  maxCharacters: 'Maximum 100 characters'
+  user: 'User'
+  cancel: 'Cancel'
+  updateTip: 'Update Tip'
+
+
