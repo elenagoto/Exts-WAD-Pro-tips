@@ -31,31 +31,31 @@
 
 en:
 # Header texts 
-  login: 'Log in'
-  signup: 'Sign up'
+  login: "Log in"
+  signup: "Sign up"
 # Home texts
-  homeTitle: 'Share your programming tips with other developers online!'
-  homeLead: '... or find tips about something:'
-  homeRecentTips: 'Here are the four most recently active tips:'
+  homeTitle: "Share your programming tips with other developers online!"
+  homeLead: "... or find tips about something:"
+  homeRecentTips: "Here are the four most recently active tips:"
 # Helpers 
   helpers:
     label:
   # Tip form
       tip:
-        title: 'Title'
-        body: 'Body'
+        title: "Title"
+        body: "Body"
   # User form
       user:
-        email: 'Email'
-        name: 'Name'
-        avatar_url: 'Avatar'
+        email: "Email"
+        name: "Name"
+        avatar_url: "Avatar"
   # Other texts in forms
   # Tips form
-  maxCharacters: 'Maximum 100 characters'
-  user: 'User'
+  maxCharacters: "Maximum 100 characters"
+  tipUser: "User"
   # User form
-  titleEditForm: 'Edit User details'
-  cancel: 'Cancel'
-  update: 'Update'
+  titleEditForm: "Edit User details"
+  cancel: "Cancel"
+  update: "Update"
 
 

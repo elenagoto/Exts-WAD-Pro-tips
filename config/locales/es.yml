@@ -1,30 +1,30 @@
 es:
 # Header texts 
-  login: 'Iniciar sesión'
-  signup: 'Registrarte'
+  login: "Iniciar sesión"
+  signup: "Registrarte"
 # Home texts
-  homeTitle: 'Comparte tus consejos de programación con otros desarrolladores en línea!'
-  homeLead: '... o encuentra consejos sobre algo:'
-  homeRecentTips: 'Estos son los cuatro consejos activos más recientes:'
+  homeTitle: "Comparte tus consejos de programación con otros desarrolladores en línea!"
+  homeLead: "... o encuentra consejos sobre algo:"
+  homeRecentTips: "Estos son los cuatro consejos activos más recientes:"
 # Helpers 
   helpers:
     label:
   # Tip form
       tip:
-        title: 'Título'
-        body: 'Contenido'
+        title: "Título"
+        body: "Contenido"
   # User form
       user:
-        email: 'Email'
-        name: 'Nombre'
-        avatar_url: 'Avatar'
+        email: "Email"
+        name: "Nombre"
+        avatar_url: "Avatar"
   # Other texts in forms
   # Tips form
-  maxCharacters: 'Máximo 100 carácteres'
-  user: 'Usuario'
+  maxCharacters: "Máximo 100 carácteres"
+  tipUser: "Usuario"
   # User form
-  titleEditForm: 'Actualizar mis datos'
-  cancel: 'Cancelar'
-  update: 'Actualizar'
+  titleEditForm: "Actualizar mis datos"
+  cancel: "Cancelar"
+  update: "Actualizar"
 
 
