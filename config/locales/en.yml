@@ -57,5 +57,7 @@ en:
   titleEditForm: "Edit User details"
   cancel: "Cancel"
   update: "Update"
+  # Footer
+  selectLanguage: 'Select language:'
 
 

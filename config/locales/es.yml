@@ -26,5 +26,7 @@ es:
   titleEditForm: "Actualizar mis datos"
   cancel: "Cancelar"
   update: "Actualizar"
+  # Footer
+  selectLanguage: 'Escoger idioma:'
 
 
