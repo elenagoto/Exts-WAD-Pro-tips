@@ -44,10 +44,18 @@ en:
       tip:
         title: 'Title'
         body: 'Body'
+  # User form
+      user:
+        email: 'Email'
+        name: 'Name'
+        avatar_url: 'Avatar'
   # Other texts in forms
+  # Tips form
   maxCharacters: 'Maximum 100 characters'
   user: 'User'
+  # User form
+  titleEditForm: 'Edit User details'
   cancel: 'Cancel'
-  updateTip: 'Update Tip'
+  update: 'Update'
 
 
