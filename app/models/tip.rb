@@ -14,4 +14,7 @@ class Tip < ApplicationRecord
   scope :title_contains, ->(term) { where('title LIKE ?', "%#{term}%") }
   scope :body_contains, ->(term) { where('body LIKE ?', "%#{term}%") }
   scope :search, ->(search_term) { title_contains(search_term).or(body_contains(search_term)) }
+
+  # Pagination
+  paginates_per 8
 end
