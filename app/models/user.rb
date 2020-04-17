@@ -1,4 +1,7 @@
 class User < ApplicationRecord
+  # Callbacks
+  before_validation :downcase_email
+
   # Validation rules
   validates :email, presence: true,
                     uniqueness: true
