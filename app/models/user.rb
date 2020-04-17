@@ -12,4 +12,10 @@ class User < ApplicationRecord
 
   # Pagination
   paginates_per 6
+
+  private
+
+  def downcase_email
+    self.email = email.downcase
+  end
 end
