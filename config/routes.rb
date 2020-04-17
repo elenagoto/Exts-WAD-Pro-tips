@@ -21,6 +21,7 @@ Rails.application.routes.draw do
 
     # Login and Sign up routes
     get 'sign_up', to: 'users#new', as: 'signup'
+    get 'log_in', to: 'sessions#new', as: 'login'
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
