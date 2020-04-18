@@ -7,6 +7,7 @@ es:
   homeTitle: "Comparte tus consejos de programación con otros desarrolladores en línea!"
   homeLead: "... o encuentra consejos sobre algo:"
   homeRecentTips: "Estos son los cuatro consejos activos más recientes:"
+  search: 'Buscar'
 # Helpers 
   helpers:
     label:

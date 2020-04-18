@@ -38,6 +38,7 @@ en:
   homeTitle: "Share your programming tips with other developers online!"
   homeLead: "... or find tips about something:"
   homeRecentTips: "Here are the four most recently active tips:"
+  search: 'Seach'
 # Helpers 
   helpers:
     label:

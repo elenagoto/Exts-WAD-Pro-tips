@@ -7,6 +7,7 @@ fr:
   homeTitle: "Partage tes conseils en programmation avec d'autres développeurs en ligne!"
   homeLead: "... ou trouve des conseils sur differents sujets:"
   homeRecentTips: "Voici nos conseils actifs les plus récents:"
+  search: 'Chercher'
 # Helpers 
   helpers:
     label:
