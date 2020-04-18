@@ -33,6 +33,7 @@ en:
 # Header texts 
   login: "Log in"
   signup: "Sign up"
+  logout: 'Log out'
 # Home texts
   homeTitle: "Share your programming tips with other developers online!"
   homeLead: "... or find tips about something:"
