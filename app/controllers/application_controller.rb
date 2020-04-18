@@ -29,4 +29,10 @@ class ApplicationController < ActionController::Base
   def admin?
     current_user.role == 'admin'
   end
+
+  def ensure_authenticated
+    unless logged_in?
+      redirect_to login_path
+    end
+  end
 end
