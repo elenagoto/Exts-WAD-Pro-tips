@@ -10,7 +10,7 @@
 <div class="card mt-4">
   <div class="card-header d-flex justify-content-start">
     <h3><%= @tip.title %></h3>
-    <% if logged_in? && can_edit?(@tip) %>
+    <% if logged_in? && can_edit_tip?(@tip) %>
       <div>
         <%= link_to 'Edit', edit_tip_path(@tip), class: 'btn btn-outline-secondary ml-3' %>
       </div>
