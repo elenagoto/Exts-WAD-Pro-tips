@@ -14,9 +14,20 @@ By defining the String in %Q, a String can span several lines.
 This is just basic "newline" markers and won't convert to new lines in HTML, which needs the use
 of <br /> or more appropriate markup.)
 
-florian = User.create!(email: 'florian@extensionschool.ch', name: 'Florian')
-sara    = User.create!(email: 'sara@extensionschool.ch',    name: 'Sara')
-linda   = User.create!(email: 'linda@extensionschool.ch',   name: 'Linda')
+User.create!(email: 'admin@extensionschool.ch',
+            name: 'Admin',
+            password: 'password',
+            role: 'admin')
+
+florian = User.create!(email: 'florian@extensionschool.ch',
+                      name: 'Florian',
+                      password: 'password')
+sara    = User.create!(email: 'sara@extensionschool.ch',
+                      name: 'Sara',
+                      password: 'password')
+linda   = User.create!(email: 'linda@extensionschool.ch',
+                      name: 'Linda',
+                      password: 'password')
 
 Tip.create!(title: 'Use #name on a class in Ruby',
             body:  'Using Class.name returns a String representing the name of a class!  E.g. Integer.name returns "Integer" and ApplicationController.name returns "ApplicationController"',

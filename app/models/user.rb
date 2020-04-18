@@ -1,6 +1,7 @@
 class User < ApplicationRecord
   # Callbacks
   before_validation :downcase_email
+  after_initialize :default_role!
 
   # Validation rules
   validates :email, presence: true,
@@ -20,5 +21,9 @@ class User < ApplicationRecord
 
   def downcase_email
     self.email = email.downcase
+  end
+
+  def default_role!
+    self.role ||= 'registered'
   end
 end
