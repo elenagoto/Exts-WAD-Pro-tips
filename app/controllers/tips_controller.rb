@@ -15,7 +15,9 @@ class TipsController < ApplicationController
   end
 
   def create
+    user = User.find(session[:user_id])
     @tip = Tip.new(tip_params)
+    @tip.user = user
 
     respond_to do |format|
       if @tip.save
