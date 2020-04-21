@@ -1,7 +1,14 @@
 class UsersController < ApplicationController
-  before_action :ensure_authenticated, only: [:index, :edit, :update, :destroy]
-  before_action :set_user, only: [:show, :edit, :update, :destroy]
+    # Includes
+  include RolesHelper
 
+  # Before actions
+  before_action :ensure_authenticated,   only: [:index, :edit, :update, :destroy]
+  before_action :set_user,               only: [:show, :edit, :update, :destroy]
+  before_action :authorize_to_edit_user, only: [:edit, :update, :destroy]
+  before_action :ensure_admin,           only: [:index]
+
+  # Actions
   def index
     @users = User.all.page(params[:page])
   end
@@ -56,6 +63,10 @@ class UsersController < ApplicationController
 
     def set_user
       @user = User.find(params[:id])
+    end
+
+    def authorize_to_edit_user
+      redirect_to account_path unless can_edit_user?(@user)
     end
 
     # Never trust parameters from the scary internet, only allow the white list through.

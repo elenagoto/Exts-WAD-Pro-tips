@@ -35,4 +35,10 @@ class ApplicationController < ActionController::Base
       redirect_to login_path
     end
   end
+
+  def ensure_admin
+    unless admin?
+      redirect_to account_path
+    end
+  end
 end
