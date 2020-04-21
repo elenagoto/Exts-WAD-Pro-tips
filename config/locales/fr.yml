@@ -3,6 +3,8 @@ fr:
   login: "Connexion"
   signup: "Inscription"
   logout: 'Déconnexion'
+  account: 'Compte'
+  users: 'Utilisateurs'
 # Home texts
   homeTitle: "Partage tes conseils en programmation avec d'autres développeurs en ligne!"
   homeLead: "... ou trouve des conseils sur differents sujets:"

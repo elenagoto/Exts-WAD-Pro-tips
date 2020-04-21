@@ -3,6 +3,8 @@ es:
   login: "Iniciar sesión"
   signup: "Registrarte"
   logout: 'Cerrar Sesión'
+  account: 'Cuenta'
+  users: 'Usuarios'
 # Home texts
   homeTitle: "Comparte tus consejos de programación con otros desarrolladores en línea!"
   homeLead: "... o encuentra consejos sobre algo:"
