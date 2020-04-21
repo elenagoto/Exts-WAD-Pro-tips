@@ -20,7 +20,7 @@ class TipsController < ApplicationController
   end
 
   def create
-    user = User.find(session[:user_id])
+    user = current_user
     @tip = Tip.new(tip_params)
     @tip.user = user
 
