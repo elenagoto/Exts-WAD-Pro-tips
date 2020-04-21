@@ -5,8 +5,8 @@ class UsersController < ApplicationController
   # Before actions
   before_action :ensure_authenticated,   only: [:index, :edit, :update, :destroy]
   before_action :set_user,               only: [:show, :edit, :update, :destroy]
-  before_action :authorize_to_edit_user, only: [:edit, :update, :destroy]
-  before_action :ensure_admin,           only: [:index]
+  before_action :authorize_to_edit_user, only: [:edit, :update]
+  before_action :ensure_admin,           only: [:index, :destroy]
 
   # Actions
   def index
