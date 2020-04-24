@@ -9,5 +9,5 @@ Users.removeUserCard = function(userId) {
 };
 
 Users.addNotice = function() {
-  document.getElementById('notice').textContent= 'User was successfully destroyed.';
+  document.getElementById('notice').textContent = 'User was successfully destroyed.';
 };
