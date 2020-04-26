@@ -1,7 +1,12 @@
 var comment = {
   'body': "<%= @comment.body %>",
-  'userLink': "<%= render partial: 'user_link', locals: { user: comment.user } %>",
-  'when': "<%= comment.created_at.strftime(' % e % b % Y at % H: % M ') %>"
+  'when': "<%= @comment.created_at.strftime('%e %b %Y at %H: %M') %>",
+  'userName': "<%= @comment.user.name %>",
+  'userAvatar': "<%= default_avatar(@comment.user) %>",
+  'userLink': "<%= user_path(@comment.user) %>"
 };
+console.log(comment);
+
 
 Comments.displayComment(comment);
+document.getElementById('comment_body').value = '';
