@@ -40,3 +40,7 @@ Comments.displayComment = function(comment) {
   var commentsList = document.getElementById('commentsList');
   commentsList.appendChild(newComment);
 };
+
+Comments.addNotice = function () {
+  document.getElementById('notice').textContent = 'Comment was successfully created.';
+};
