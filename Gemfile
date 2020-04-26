@@ -66,3 +66,6 @@ gem 'kaminari'
 
 # Use CarrierWaver to manage uploads
 gem 'carrierwave', '~> 1.1.0'
+
+# Use Figaro to conect AWS to Heroku
+gem "figaro"
