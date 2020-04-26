@@ -1,20 +1,12 @@
 module ApplicationHelper
 
   def pluralize_comments(comments)
-    if comments.count == 1
-      "#{comments.count} comment"
-    else
-      "#{comments.count} comments"
-    end
-    
+    pluralize = 's' if comments.count != 1
+    "#{comments.count} comment#{pluralize}"
   end
 
   def pluralize_tips(tips)
-    if tips.count == 1
-      "#{tips.count} tip"
-    else
-      "#{tips.count} tips"
-    end
-    
+    pluralize = 's' if tips.count != 1
+    "#{tips.count} tip#{pluralize}"
   end
 end
