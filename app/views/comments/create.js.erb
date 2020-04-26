@@ -1,0 +1,7 @@
+var comment = {
+  'body': "<%= @comment.body %>",
+  'userLink': "<%= render partial: 'user_link', locals: { user: comment.user } %>",
+  'when': "<%= comment.created_at.strftime(' % e % b % Y at % H: % M ') %>"
+};
+
+Comments.displayComment(comment);

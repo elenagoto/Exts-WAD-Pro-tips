@@ -24,7 +24,7 @@
 
   <div class="card-body">
     <h3>Comments</h3>
-    <div class="m-3">
+    <div class="m-3" id="commentsList">
       <% @tip.comments.order(created_at: :asc).each do |comment| %>
         <blockquote class="blockquote">
           <p class="mb-0"><%= comment.body %></p>
