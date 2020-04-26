@@ -17,6 +17,9 @@ class User < ApplicationRecord
   # Pagination
   paginates_per 6
 
+  # Uploader
+  mount_uploader :avatar, AvatarUploader
+
   private
 
   def downcase_email
