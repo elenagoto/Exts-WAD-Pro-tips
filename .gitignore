@@ -84,6 +84,3 @@ public/uploads/*
 public/assets/*
 # Ignore application configuration
 /config/application.yml
-
-#Ignore production file
-run-production.sh
