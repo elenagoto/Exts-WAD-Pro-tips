@@ -7,7 +7,3 @@ Tips = {};
 Tips.removeTipCard = function(tipId) {
   document.getElementById('tip-' + tipId).parentElement.remove();
 };
-
-Tips.addNotice = function() {
-  document.getElementById('notice').textContent = 'Tip was successfully destroyed.';
-};
