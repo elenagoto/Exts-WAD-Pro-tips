@@ -53,10 +53,7 @@ class TipsController < ApplicationController
   end
 
   def destroy
-    @tip.destroy
-    respond_to do |format|
-      format.js
-    end
+    @tip.destroy!
   end
 
   private
