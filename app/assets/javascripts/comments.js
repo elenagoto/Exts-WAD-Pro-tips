@@ -19,7 +19,6 @@ Comments.builtComment = function(comment) {
   commentUserLink.appendChild(commentAvatar);
   commentUserLink.appendChild(document.createTextNode(comment.userName));
 
-
   var commentFooter = document.createElement('footer');
   commentFooter.className = 'blockquote-footer';
   commentFooter.appendChild(document.createTextNode('Added by '));
