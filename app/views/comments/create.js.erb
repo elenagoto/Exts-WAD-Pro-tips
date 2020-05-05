@@ -6,6 +6,8 @@ var comment = {
   'userLink': "<%= user_path(@comment.user) %>"
 };
 console.log(comment);
-document.getElementById('comment_body').value = "";
 Comments.displayComment(comment);
+Comments.addNotice();
+document.getElementById('comment_body').value = "";
+
 

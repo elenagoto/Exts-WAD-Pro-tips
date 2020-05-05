@@ -27,7 +27,7 @@ linda   = User.create!(email: 'linda@extensionschool.ch',
                       name: 'Linda',
                       password: 'password')
 marc = User.create!(email: 'marc@extensionschool.ch',
-                    name: 'Flora',
+                    name: 'Marc',
                     password: 'password')
 juliette = User.create!(email: 'juliette@extensionschool.ch',
                         name: 'Juliette',
