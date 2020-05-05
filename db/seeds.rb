@@ -5,8 +5,6 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-
-# percent_q_string is used in a tip below
 percent_q_string = %Q(It's possible to create a String on multiple lines using %Q( ... ).
 
 By defining the String in %Q, a String can span several lines.
@@ -28,6 +26,15 @@ sara    = User.create!(email: 'sara@extensionschool.ch',
 linda   = User.create!(email: 'linda@extensionschool.ch',
                       name: 'Linda',
                       password: 'password')
+marc = User.create!(email: 'marc@extensionschool.ch',
+                    name: 'Flora',
+                    password: 'password')
+juliette = User.create!(email: 'juliette@extensionschool.ch',
+                        name: 'Juliette',
+                        password: 'password')
+laura = User.create!(email: 'laura@extensionschool.ch',
+                    name: 'Laura',
+                    password: 'password')
 
 Tip.create!(title: 'Use #name on a class in Ruby',
             body:  'Using Class.name returns a String representing the name of a class!  E.g. Integer.name returns "Integer" and ApplicationController.name returns "ApplicationController"',
@@ -85,8 +92,8 @@ Comment.create!(body: 'Wow! I wish I had known that before! Thanks a lot',
                 user: florian,
                 tip: Tip.find(4))
 Comment.create!(body: "Yes! I'm so in love with Rails just because of things like this!",
-                user: linda,
+                user: juliette,
                 tip: Tip.find(4))
 Comment.create!(body: "You're totally right! You just have to take the time to do things at your own pace!",
-                user: sara,
+                user: laura,
                 tip: Tip.last)
