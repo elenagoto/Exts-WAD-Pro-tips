@@ -70,3 +70,7 @@ gem 'carrierwave', '~> 1.1.0'
 # Use Figaro to conect AWS to Heroku
 gem "figaro"
 gem "fog-aws"
+
+# Add bootstrap for style
+gem 'bootstrap', '~> 4.4.1'
+gem 'jquery-rails'
